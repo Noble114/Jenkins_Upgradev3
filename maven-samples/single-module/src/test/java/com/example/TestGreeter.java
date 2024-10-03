@@ -26,6 +26,13 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone), containsString(someone));
   }
+
+   @Test
+  public void intentionally_Failed {
+    AssertTrue(false);
+
+    assertThat(greeter.greet(someone), containsString(someone));
+  }
   
 
   @Test
